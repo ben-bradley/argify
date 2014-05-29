@@ -1,0 +1,23 @@
+{
+  "name": "argify",
+  "description": "simple bit of code to parse command-line args",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ben-bradley/argify",
+  "author": {
+    "name": "Ben Bradley",
+    "url": "https://github.com/ben-bradley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-bradley/argify.git"
+  },
+  "homepage": "https://ben-bradley.github.io/argify",
+  "keywords": [
+    "generator-beardme",
+    "generator-stacked"
+  ],
+  "bugs": {
+    "url": "https://github.com/ben-bradley/argify/issues"
+  },
+  "main": "argify.js"
+}
