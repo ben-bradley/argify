@@ -1,8 +1,8 @@
 {
   "name": "argify",
   "description": "simple bit of code to parse command-line args",
-  "version": "0.0.1",
-  "homepage": "https://github.com/ben-bradley/argify",
+  "version": "0.0.2",
+  "homepage": "https://ben-bradley.github.io/argify",
   "author": {
     "name": "Ben Bradley",
     "url": "https://github.com/ben-bradley"
@@ -11,13 +11,19 @@
     "type": "git",
     "url": "git@github.com:ben-bradley/argify.git"
   },
-  "homepage": "https://ben-bradley.github.io/argify",
   "keywords": [
-    "generator-beardme",
-    "generator-stacked"
+    "args",
+    "arguments"
   ],
   "bugs": {
     "url": "https://github.com/ben-bradley/argify/issues"
   },
-  "main": "argify.js"
+  "main": "argify.js",
+  "scripts": {
+    "test": "mocha -R spec test/spec --blargh=honk"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "mocha": "^1.21.4"
+  }
 }
