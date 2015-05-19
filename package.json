@@ -1,7 +1,7 @@
 {
   "name": "argify",
   "description": "simple bit of code to parse command-line args",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://ben-bradley.github.io/argify",
   "author": {
     "name": "Ben Bradley",
@@ -20,7 +20,7 @@
   },
   "main": "argify.js",
   "scripts": {
-    "test": "mocha -R spec test/spec --blargh=honk"
+    "test": "mocha -R spec test/spec --foo=bar --baz"
   },
   "devDependencies": {
     "should": "^4.0.4",

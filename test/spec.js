@@ -8,8 +8,13 @@ describe('argify', function () {
     done();
   });
 
-  it('should have a property "blargh" == "honk"', function (done) {
-    (args.blargh).should.equal('honk');
+  it('should have a property "foo" == "bar"', function (done) {
+    (args.foo).should.equal('bar');
+    done();
+  });
+
+  it('should have a property "baz" == true', function (done) {
+    (args.baz === true).should.equal(true);
     done();
   });
 

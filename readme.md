@@ -16,13 +16,15 @@ It parses command line arguments formatted like: `$ node ./yourscript.js --blarg
 // yourscript.js
 var args = require('argify');
 
-console.log(args); // stdout: { blargh: 'honk' }
-console.log(args.blargh); // stdout: honk
+console.log(args);        // stdout: { blargh: 'honk' }
+console.log(args.blargh); // stdout: 'honk'
+console.log(args.foo);    // stdout: true
 ```
 
-`$ node ./yourscript.js --blargh=honk`
+`$ node ./yourscript.js --blargh=honk --foo`
 
 ## Version
 
+- 0.0.3 - added boolean options
 - 0.0.2 - fixed package.json keywords, added travis bling, standardized structure
 - 0.0.1 - initial drop
